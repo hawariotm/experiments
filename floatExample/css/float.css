@@ -1,0 +1,29 @@
+.common
+{	background-color: #d3d3d3;
+	height:100px;
+	width:100px;
+	padding:5px;
+	border: 5px solid #813434;
+    margin:5px;
+}
+#box1
+{	
+	float:left;
+}
+#box2{
+	float:left;
+}
+#box3{
+	float:right;
+   }
+
+ #box4
+ {
+ 	clear:both;
+ 	float:left;
+ }
+ #box5
+ {
+ 	clear: left;
+ 	float: right;
+ }
