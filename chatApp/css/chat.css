@@ -1,0 +1,138 @@
+body{
+	box-sizing: initial;
+}
+#chatbox{
+	position: fixed;
+	width: 300px;
+	bottom: 0;
+	right: 0;
+    border: 2px solid navy;
+    margin: 5px;	
+    box-sizing: initial;
+    overflow: hidden;
+
+}
+.chatheader
+  {
+  	position: relative;
+	height: 50px;
+	top: 0;
+	right: 0;
+	left: 0;
+	border-bottom: 2px solid navy;
+	box-sizing: initial;
+	z-index: 2;
+
+
+
+
+  }
+  .chatfooter
+  {
+  	position: relative;
+  	height: 50px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	border-top: 2px solid navy;
+	z-index: 2;
+
+	
+
+
+  }
+  .logo
+  {
+    position: absolute;
+    float: left;
+    display: inline-block;
+    height: 50px;
+     width: 50px;
+     line-height: 4;
+     text-align: center;
+     background-color: #323232;
+   	
+  
+  }
+  .icon
+  {
+  	position: relative;
+  	float:right;
+  	height:50px ;
+  	width: 50px;
+  	background-color: #323232;
+  	display: inline-block;
+  	text-align: center;
+  	 line-height: 4;
+    
+  }
+  .textbox
+  {
+  	display: block;
+  position: absolute;
+  height: 50px;
+  width:200px;
+  background-color:#323232;
+  left:50px;
+  text-align: center;
+  font-family: "Raleway" ,"sans-serif";
+  color: #fff;
+
+  }
+  .text{
+  	font-family: "Raleway" ,"sans-serif";
+  color: aqua;
+  margin-top: 5%;
+
+
+
+  }
+  #content {
+  	position: relative;
+  	height: 400px;
+  	background-color: #d3d3d3;
+  	overflow: auto;
+  	padding: 5px;
+  	text-align: justify;
+
+  }
+  .material-icons{
+	box-sizing:initial;
+	color: aqua;
+	font-size: 22px;
+  }
+
+   .textmsg
+   {
+   	height: 28px;
+   	width: 180px;
+   	color: black;
+   	background-color: #d3d3d3;
+
+   }
+           #drawer {
+        position: absolute;
+        top: 52px;
+        padding-top: 50px;
+        height: auto;
+        width: 180px;
+        background: #323232;
+         bottom: 34px;
+        transition: 1s;
+        right: -250px;
+        z-index: 2;
+        }
+
+        #drawer.right{
+        transition: 1s;
+        right:0px;
+        }
+
+      #clk:hover
+        {cursor: pointer;
+       cursor: hand;}
+
+       #drawer li a {
+        display: block;
+        color: aqua;
+    }
